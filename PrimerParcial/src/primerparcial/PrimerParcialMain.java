@@ -17,10 +17,10 @@ public class PrimerParcialMain {
         System.out.print("Opción: ");
         
         choice = scanner.nextLine();
+        System.out.println("///////////////////////////////////////////////////");
         
         switch(choice){
             case "1":
-                System.out.println("///////////////////////////////////////////////////");
                 System.out.print("Ingrese el numero de la tabla a mostrar: ");
                 table = scanner.nextInt();
                 scanner.nextLine();
@@ -31,7 +31,12 @@ public class PrimerParcialMain {
                 }
                 break;
             case "2":
-                
+                for(int i = 2; i <= 5; i++){
+                    System.out.println("Tabla del " + i);
+                    for(int j = 1; j <= 10; j++){
+                        System.out.println(i + " X " + j + " = " + (i * j));
+                    }
+                }
                 break;
             case "3":
                 
