@@ -10,7 +10,7 @@ public class PrimerParcialMain {
         
         do{
         System.out.println("\nTablas de multiplicar");
-        System.out.println("Seleccione una opción.");
+        System.out.println("Seleccione una opcion.");
         System.out.println("1. Mostrar tabla en específico");
         System.out.println("2. Mostrar tablas del 2 al 5");
         System.out.println("3. Salir");
@@ -39,7 +39,8 @@ public class PrimerParcialMain {
                 }
                 break;
             case "3":
-                
+                System.out.println("Gracias por usar el generador de tablas de multiplicar...");
+                System.out.println("Que tenga un buen dia!");
                 break;
             default:
                 System.out.println("Opción no válida, inténtelo de nuevo...");
